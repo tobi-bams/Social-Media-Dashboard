@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Social Media Dashboard with Theme Switcher Master]</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+<body>
+
+	<header>
+		<div id="header">
+			<aside id="headerText">
+				<h1>Social Media Dashboard</h1>
+				<p id="headerTextSmall">Total Followers: 23,004</p>
+			</aside>
+			<aside id="toggleSection">
+				<h4>Dark Mode</h4>
+				<input type="checkbox" class="checkbox" id="checkbox">
+				<label for="checkbox" class="label">
+					<div class="ball"></div>
+				</label>
+			</aside>
+		</div>
+	</header>
+	<main>
+		<section id="mainHeader">
+			<article id="facebook" class="bigCard">
+				<div class="mainHead">
+					<img src="./images/icon-facebook.svg" alt="Facebook Icon">
+					<small>@nathanf</small>
+				</div>
+				<h2>1987</h2>
+				<p>Followers</p>
+				<div class="mainFooter">
+					<img src="./images/icon-up.svg">
+					<small class="days">12 Today</small>
+				</div>
+			</article>
+			<article id="twitter" class="bigCard">
+				<div class="mainHead">
+					<img src="./images/icon-twitter.svg" alt="Twitter">
+					<small>@nathanf</small>
+				</div>
+				<h2>1044</h2>
+				<p>Followers</p>
+				<div class="mainFooter">
+					<img src="./images/icon-up.svg">
+					<small class="days">99 Today</small>
+				</div>
+			</article>
+			<article id="instagram" class="bigCard">
+				<div class="mainHead">
+					<img src="./images/icon-instagram.svg" alt="Instagram">
+					<small>@realnathanf</small>
+				</div>
+				<h2>11k</h2>
+				<p>Followers</p>
+				<div class="mainFooter">
+					<img src="./images/icon-up.svg">
+					<small class="days">1099 Today</small>
+				</div>
+			</article>
+			<article id="youtube" class="bigCard">
+				<div class="mainHead">
+					<img src="./images/icon-youtube.svg">
+					<small>Nathan F.</small>
+				</div>
+				<h2>8239</h2>
+				<p>Subscribers</p>
+				<div class="mainFooter">
+					<img src="./images/icon-down.svg">
+					<small class="days">144 Today</small>
+				</div>
+			</article>
+		</section>
+		<section id="overView">
+			<h3 id="overViewHead">Overview - Today</h3>
+			<section id="overviewStructure">
+				<article id="facebookPageView" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Page Views</small>
+						<img src="./images/icon-facebook.svg" alt="Facebook">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">87</small>
+						<div class="innerFooter">
+							<img src="./images/icon-up.svg">
+							<small class="cent">3%</small>
+						</div>
+					</div>
+				</article>
+				<article id="facebookLikes" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Likes</small>
+						<img src="./images/icon-facebook.svg" alt="Facebook">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">52</small>
+						<div class="innerFooter">
+							<img src="./images/icon-down.svg">
+							<small class="cent">2%</small>
+						</div>
+					</div>
+				</article>
+				<article id="instagramLikes" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Likes</small>
+						<img src="./images/icon-instagram.svg" alt="Instagram">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">5462</small>
+						<div class="innerFooter">
+							<img src="./images/icon-up.svg">
+							<small class="cent">2257%</small>
+						</div>
+					</div>
+				</article>
+				<article id="instagramViews" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Profile Views</small>
+						<img src="./images/icon-instagram.svg" alt="Instagram">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">52k</small>
+						<div class="innerFooter">
+							<img src="./images/icon-up.svg">
+							<small class="cent">1375%</small>
+						</div>
+					</div>
+				</article>
+				<article id="twitterRetweet" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Retweets</small>
+						<img src="./images/icon-twitter.svg" alt="Twitter">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">117</small>
+						<div class="innerFooter">
+							<img src="./images/icon-up.svg">
+							<small class="cent">303%</small>
+						</div>
+					</div>
+				</article>
+				<article id="twitterLikes" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Likes</small>
+						<img src="./images/icon-twitter.svg" alt="Twitter">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">507</small>
+						<div class="innerFooter">
+							<img src="./images/icon-up.svg">
+							<small class="cent">553%</small>
+						</div>
+					</div>
+				</article>
+				<article id="youtubeLikes" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Likes</small>
+						<img src="./images/icon-youtube.svg" alt="YouTube">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">107</small>
+						<div class="innerFooter">
+							<img src="./images/icon-down.svg">
+							<small class="cent">19%</small>
+						</div>
+					</div>
+				</article>
+				<article id="youtubeViews" class="overviewCard">
+					<div class="pageViewHead">
+						<small class="overViewHeading">Total Views</small>
+						<img src="./images/icon-youtube.svg" alt="YouTube">
+					</div>
+					<div class="overviewFooter">
+						<small class="numbers">1407</small>
+						<div class="innerFooter">
+							<img src="./images/icon-down.svg">
+							<small class="cent">12%</small>
+						</div>
+					</div>
+				</article>
+			</section>
+		</section>
+	</main>
+	<script src="./css/index.js"></script>
+</body>
+</html>
